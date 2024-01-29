@@ -3,4 +3,29 @@
 :root {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
+  overflow-y: hidden;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.pagination__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.current_page {
+  border-color: #64dd17;
+  color: #64dd17;
+  transform: scale(1.2);
 }

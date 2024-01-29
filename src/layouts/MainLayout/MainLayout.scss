@@ -1,0 +1,48 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: #202124;
+  position: relative;
+  overflow: hidden;
+}
+
+.ellipse {
+  position: absolute;
+  border-radius: 50%;
+  flex-shrink: 0;
+  opacity: 0.5;
+  filter: blur(200px);
+
+  &--pink {
+    transform: translate(-20%, -50%);
+    width: 20vw;
+    height: 40vh;
+    background: radial-gradient(115.36% 120.23% at 3.92% 64.78%, #960352 35.68%, #c93ba9 100%);
+  }
+
+  &--green {
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    width: 40vw;
+    height: 70vh;
+    background: radial-gradient(115.36% 120.23% at 3.92% 64.78%, #3c9603 35.68%, #72c93b 100%);
+  }
+
+  &--blue {
+    right: 0;
+    transform: translate(30%, -70%);
+    width: 50vw;
+    height: 80vh;
+    background: radial-gradient(115.36% 120.23% at 3.92% 64.78%, #038496 35.68%, #3b74c9 100%);
+  }
+
+  &--orange {
+    right: 0;
+    bottom: 0;
+    transform: translate(50%, 80%);
+    width: 50vw;
+    height: 80vh;
+    opacity: 0.3;
+    background: radial-gradient(115.36% 120.23% at 3.92% 64.78%, #e0861d 35.68%, #c9b23b 100%);
+  }
+}

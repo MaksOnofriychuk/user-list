@@ -1,0 +1,93 @@
+.modal__wrapper {
+  background-color: #202124;
+  position: fixed;
+  overflow: hidden;
+  z-index: 100;
+  left: 40%;
+  top: 40%;
+  background-color: #1a242f;
+  width: 400px;
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ellipse {
+  position: absolute;
+  border-radius: 50%;
+
+  &--pink {
+    transform: translate(-20%, -50%);
+
+    width: 20vw;
+    height: 40vh;
+    flex-shrink: 0;
+
+    opacity: 0.5;
+    background: radial-gradient(115.36% 120.23% at 3.92% 64.78%, #960352 35.68%, #c93ba9 100%);
+    filter: blur(300px);
+  }
+
+  &--green {
+    bottom: 0;
+    transform: translate(-50%, 50%);
+
+    width: 40vw;
+    height: 70vh;
+    flex-shrink: 0;
+
+    opacity: 0.5;
+    background: radial-gradient(115.36% 120.23% at 3.92% 64.78%, #3c9603 35.68%, #72c93b 100%);
+    filter: blur(200px);
+  }
+
+  &--blue {
+    right: 0;
+    transform: translate(30%, -70%);
+
+    width: 50vw;
+    height: 80vh;
+    flex-shrink: 0;
+
+    opacity: 0.5;
+    background: radial-gradient(115.36% 120.23% at 3.92% 64.78%, #038496 35.68%, #3b74c9 100%);
+    filter: blur(200px);
+  }
+
+  &--orange {
+    right: 0;
+    bottom: 0;
+    transform: translate(50%, 80%);
+
+    width: 50vw;
+    height: 80vh;
+    flex-shrink: 0;
+
+    opacity: 0.3;
+    background: radial-gradient(115.36% 120.23% at 3.92% 64.78%, #e0861d 35.68%, #c9b23b 100%);
+    filter: blur(200px);
+  }
+}
+
+.modal__title {
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.top_wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.close__modal-btn {
+  position: absolute;
+  top: 8px;
+  right: 4px;
+}
