@@ -1,0 +1,39 @@
+.delete__modal {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.delete__modal_text {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.delete__modal_buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 50%;
+
+  & > button {
+    border: 1px solid #fff;
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0em;
+    color: #fff;
+    cursor: pointer;
+  }
+}

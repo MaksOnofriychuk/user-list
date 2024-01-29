@@ -86,6 +86,12 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
