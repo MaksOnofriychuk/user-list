@@ -5,6 +5,11 @@
   position: relative;
   padding: 0px 20px;
   z-index: 2;
+  max-height: 76vh;
+  overflow-y: auto;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin-bottom: 20px;
 
   .user__item {
     width: 100%;
