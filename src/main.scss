@@ -13,6 +13,7 @@
 .pagination__wrapper {
   display: flex;
   justify-content: center;
+  margin-top: 24px;
 }
 
 .page {
@@ -28,4 +29,29 @@
   border-color: #64dd17;
   color: #64dd17;
   transform: scale(1.2);
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #3a3f37;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar-thumb {
+  width: 5px;
+  height: 5px;
+  border-radius: 4px;
+  background-color: #64dd17;
+  &:hover {
+    background-color: #64dd17;
+  }
+}
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #40443e;
 }
